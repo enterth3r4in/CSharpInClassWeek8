@@ -37,6 +37,10 @@
             this.btnClearNames = new System.Windows.Forms.Button();
             this.tbEnterName = new System.Windows.Forms.TextBox();
             this.lblTextBoxPrompt = new System.Windows.Forms.Label();
+            this.btnWriteNumbers = new System.Windows.Forms.Button();
+            this.btnReadNumbers = new System.Windows.Forms.Button();
+            this.tbCheckName = new System.Windows.Forms.TextBox();
+            this.btnCheckName = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbNumberList
@@ -51,7 +55,7 @@
             // 
             // btnExitProgram
             // 
-            this.btnExitProgram.Location = new System.Drawing.Point(285, 324);
+            this.btnExitProgram.Location = new System.Drawing.Point(303, 344);
             this.btnExitProgram.Name = "btnExitProgram";
             this.btnExitProgram.Size = new System.Drawing.Size(75, 23);
             this.btnExitProgram.TabIndex = 1;
@@ -86,7 +90,7 @@
             this.lbNameList.ItemHeight = 24;
             this.lbNameList.Location = new System.Drawing.Point(189, 12);
             this.lbNameList.Name = "lbNameList";
-            this.lbNameList.Size = new System.Drawing.Size(171, 220);
+            this.lbNameList.Size = new System.Drawing.Size(189, 220);
             this.lbNameList.TabIndex = 4;
             // 
             // btnAddName
@@ -101,7 +105,7 @@
             // 
             // btnClearNames
             // 
-            this.btnClearNames.Location = new System.Drawing.Point(285, 286);
+            this.btnClearNames.Location = new System.Drawing.Point(303, 286);
             this.btnClearNames.Name = "btnClearNames";
             this.btnClearNames.Size = new System.Drawing.Size(75, 23);
             this.btnClearNames.TabIndex = 6;
@@ -112,23 +116,64 @@
             // 
             this.tbEnterName.Location = new System.Drawing.Point(189, 260);
             this.tbEnterName.Name = "tbEnterName";
-            this.tbEnterName.Size = new System.Drawing.Size(171, 20);
+            this.tbEnterName.Size = new System.Drawing.Size(189, 20);
             this.tbEnterName.TabIndex = 7;
             // 
             // lblTextBoxPrompt
             // 
             this.lblTextBoxPrompt.AutoSize = true;
-            this.lblTextBoxPrompt.Location = new System.Drawing.Point(222, 244);
+            this.lblTextBoxPrompt.Location = new System.Drawing.Point(240, 244);
             this.lblTextBoxPrompt.Name = "lblTextBoxPrompt";
             this.lblTextBoxPrompt.Size = new System.Drawing.Size(98, 13);
             this.lblTextBoxPrompt.TabIndex = 8;
             this.lblTextBoxPrompt.Text = "Enter Name Below:";
             // 
+            // btnWriteNumbers
+            // 
+            this.btnWriteNumbers.Location = new System.Drawing.Point(12, 315);
+            this.btnWriteNumbers.Name = "btnWriteNumbers";
+            this.btnWriteNumbers.Size = new System.Drawing.Size(75, 23);
+            this.btnWriteNumbers.TabIndex = 11;
+            this.btnWriteNumbers.Text = "Write File";
+            this.btnWriteNumbers.UseVisualStyleBackColor = true;
+            this.btnWriteNumbers.Click += new System.EventHandler(this.btnWriteNumbers_Click);
+            // 
+            // btnReadNumbers
+            // 
+            this.btnReadNumbers.Location = new System.Drawing.Point(108, 315);
+            this.btnReadNumbers.Name = "btnReadNumbers";
+            this.btnReadNumbers.Size = new System.Drawing.Size(75, 23);
+            this.btnReadNumbers.TabIndex = 12;
+            this.btnReadNumbers.Text = "Read File";
+            this.btnReadNumbers.UseVisualStyleBackColor = true;
+            this.btnReadNumbers.Click += new System.EventHandler(this.btnReadNumbers_Click);
+            // 
+            // tbCheckName
+            // 
+            this.tbCheckName.Location = new System.Drawing.Point(189, 315);
+            this.tbCheckName.Name = "tbCheckName";
+            this.tbCheckName.Size = new System.Drawing.Size(187, 20);
+            this.tbCheckName.TabIndex = 13;
+            // 
+            // btnCheckName
+            // 
+            this.btnCheckName.Location = new System.Drawing.Point(189, 344);
+            this.btnCheckName.Name = "btnCheckName";
+            this.btnCheckName.Size = new System.Drawing.Size(108, 23);
+            this.btnCheckName.TabIndex = 14;
+            this.btnCheckName.Text = "Check For Name";
+            this.btnCheckName.UseVisualStyleBackColor = true;
+            this.btnCheckName.Click += new System.EventHandler(this.btnCheckName_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(375, 359);
+            this.ClientSize = new System.Drawing.Size(390, 374);
+            this.Controls.Add(this.btnCheckName);
+            this.Controls.Add(this.tbCheckName);
+            this.Controls.Add(this.btnReadNumbers);
+            this.Controls.Add(this.btnWriteNumbers);
             this.Controls.Add(this.lblTextBoxPrompt);
             this.Controls.Add(this.tbEnterName);
             this.Controls.Add(this.btnClearNames);
@@ -157,6 +202,10 @@
         private System.Windows.Forms.Button btnClearNames;
         private System.Windows.Forms.TextBox tbEnterName;
         private System.Windows.Forms.Label lblTextBoxPrompt;
+        private System.Windows.Forms.Button btnWriteNumbers;
+        private System.Windows.Forms.Button btnReadNumbers;
+        private System.Windows.Forms.TextBox tbCheckName;
+        private System.Windows.Forms.Button btnCheckName;
     }
 }
 
