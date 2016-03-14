@@ -1,0 +1,9 @@
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\bin\Debug\CSharpInClassWeek8.exe.config
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\bin\Debug\CSharpInClassWeek8.exe
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\bin\Debug\CSharpInClassWeek8.pdb
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\obj\Debug\CSharpInClassWeek8.csprojResolveAssemblyReference.cache
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\obj\Debug\CSharpInClassWeek8.Form1.resources
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\obj\Debug\CSharpInClassWeek8.Properties.Resources.resources
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\obj\Debug\CSharpInClassWeek8.csproj.GenerateResource.Cache
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\obj\Debug\CSharpInClassWeek8.exe
+C:\Users\CM185181\Documents\GitHub\CSharpInClassWeek8\CSharpInClassWeek8\obj\Debug\CSharpInClassWeek8.pdb
